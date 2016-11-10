@@ -7,8 +7,10 @@
 <title>JSP</title>
 </head>
 <body>
-<form action="/login.do" method="post">
-Enter your name <input type="text" name="name"/> <input type="submit"/>
-</form>
+	<form action="/login.do" method="post">
+		<p><font color="red">${errorMessage}</font></p>
+		Name: <input type="text" name="name"/> <input type="submit"/>
+		Password: <input type="password" name="password" />
+	</form>
 </body>
 </html>

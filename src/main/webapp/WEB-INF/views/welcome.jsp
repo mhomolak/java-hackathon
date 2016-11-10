@@ -8,7 +8,7 @@
 <title>Welcome</title>
 </head>
 <body>
-Welcome ${name}
+Welcome, ${name}.
 </form>
 </body>
 </html>
