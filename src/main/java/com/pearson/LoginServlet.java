@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(urlPatterns="/login.do")
+@WebServlet(urlPatterns="/login")
 public class LoginServlet extends HttpServlet{	
 	
 	private UserValidationService service = new UserValidationService();
